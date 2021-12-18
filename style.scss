@@ -1,0 +1,44 @@
+//seteo de funcion de colores
+$primary: #ffcc5d;
+$danger: #ff4136;
+
+//seteo de funcion de temas de colores
+$theme-colors: (
+  "primary": $primary,
+  "danger": $danger
+);
+
+//color de fondo
+$body-bg: #fdefe3;
+
+//color de fuentes
+$body-color: #b17139;
+
+body{
+  
+  .container{
+    height: 100vh;
+
+    .card{
+      width: 18rem;
+
+      .resultado{
+        background-color: #f3d4b8;
+        ;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 25rem;
+        width: 18rem;
+
+        img {
+          object-fit: cover;
+          height: 100%;
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+
+@import "./node_modules/bootstrap/scss/bootstrap.scss";

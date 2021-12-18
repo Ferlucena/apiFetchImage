@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Api Fecth con imágenes + Bootstrap + Node</title>
+    <!--Zona: Estilos-->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container d-flex justify-content-evenly align-items-center">
+    
+        <!-- Visor de gatitos -->
+        <div class="card" >
+            <div id="resultadogato" class="resultado">
+                <p>Imagen de gatitos</p>
+            </div>
+            <div class="card-body ">
+                <h5 class="card-title">Gatitos</h5>
+                <p class="card-text">Algunas imágenes de gatitos generadas automaticamente por random y consumo de API fetch
+                </p>
+                <button href="#" id="btn_gato" class="btn btn-primary">Ver gatitos</button>
+            </div>
+        </div>
+    
+        <!-- Visor de perritos -->
+        <div class="card">
+            <div id="resultadoperro" class="resultado">
+                <p>Imagen de perritos</p>
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">Perritos</h5>
+                <p class="card-text">Algunas imágenes de perritos generadas automaticamente por random y consumo de API
+                    fetch</p>
+                <button href="#" id="btn_perro" class="btn btn-primary">Ver perritos</button>
+            </div>
+        </div>
+    </div>
+    <!--Zona: Script-->
+    <script src="./index.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
